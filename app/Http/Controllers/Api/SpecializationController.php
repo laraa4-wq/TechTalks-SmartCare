@@ -7,6 +7,7 @@ use App\Http\Resources\SpecializationResource;
 use App\Models\Specialization;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
+
 class SpecializationController extends Controller
 {
     public function index(): AnonymousResourceCollection
